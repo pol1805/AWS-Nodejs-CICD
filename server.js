@@ -17,6 +17,16 @@ app.get('/api/satsangIT_user_details', (req,res) => {
 
     })
 }
+
+app.get('/api/notifications', (req,res) => {
+    res.send({
+        status: "200",
+        message:"Notifications",
+        data:[]
+        }
+
+    })
+}
 );
 
 app.listen(5000, () => {
