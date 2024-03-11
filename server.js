@@ -12,19 +12,19 @@ app.get('/api/satsangIT_user_details', (req,res) => {
         user: {
             name: "utpalendu",
             location: "durgapur",
-            family_code: "00100100100"
+            family_code: "001"
         }
 
     })
 }
-
+)
+    
 app.get('/api/notifications', (req,res) => {
     res.send({
-        status: "200",
-        message:"Notifications",
-        data:[]
-        }
-
+            status: "200",
+            message: "Notifications",
+            data: "[]"
+        
     })
 }
 );
